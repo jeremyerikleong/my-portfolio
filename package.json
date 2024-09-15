@@ -1,0 +1,22 @@
+{
+  "name": "jeremy",
+  "version": "1.1.0",
+  "description": "",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Jeremy",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "sass": "^1.52.3"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.10.3"
+  }
+}
