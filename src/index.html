@@ -11,9 +11,14 @@
     <meta name="author" content="Jeremy Erik Leong" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jeremy Erik Leong - Front End Developer</title>
+
     <link rel="icon" href="img/logo.svg">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <!-- to change in local -->
+    <!-- <link rel="stylesheet" href="../dist/style.css"> -->
     <link rel="stylesheet" href="./scss/style.scss">
 </head>
 
@@ -28,7 +33,8 @@
             <div class="header container">
                 <nav class="nav-bar">
                     <div class="logo">
-                        <a href="index.html" class="no-select logo"><img src="img/logo.svg" alt="jeremy's logo"></a>
+                        <a href="index.html" class="no-select logo"><img src="img/logo.svg" alt="jeremy's logo"
+                                aria-label="jeremy's website"></a>
                     </div>
                     <div class="nav-list">
                         <label id="hamburger" class="no-select">
@@ -53,7 +59,7 @@
                     <h3>Hello, my name is</h3>
                     <h1>Jeremy Erik Leong.</h1>
                     <p>I build interactive websites that run across platforms and devices.</p>
-                    <a href="#about" class="no-select">
+                    <a href="#about" class="no-select" aria-label="animated-mouse-scroll">
                         <svg class="mouse stagger1" width="20" height="40" viewBox="0 0 40 77">
                             <g id="scroll" transform="translate(-253 -787)">
                                 <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none"
@@ -81,14 +87,14 @@
                     <ul>
                         <li>JavaScript (ES6)</li>
                         <li>SCSS</li>
-                        <li>Node.js </li>
-                        <li>Express</li>
+                        <li>SEO</li>
+                        <li>Semantic HTML</li>
                     </ul>
                     </p>
                 </div>
                 <div class="col-right">
                     <div class="about-image">
-                        <img src="img/jeremy.webp" alt="my-profile-pic">
+                        <img src="img/jeremy.webp" alt="my-profile-pic" width="200" height="200">
                     </div>
                 </div>
             </div>
@@ -113,8 +119,8 @@
                                 <td class="year">2022</td>
                                 <td>
                                     <span class="title">Front-End Web Developer</span>
-                                    <strong><br /><a href="https://www.ttwoweb.com/" target="_blank"
-                                            class="no-select">@Ttwoweb Sdn Bhd</a></strong>
+                                    <strong><br /><a href="https://www.ttwoweb.com/" target="_blank" class="no-select"
+                                            aria-label="website">@Ttwoweb Sdn Bhd</a></strong>
                                     <div class="time">July 2022 - September 2024</div>
                                 </td>
                             </tr>
@@ -122,8 +128,8 @@
                                 <td class="year">2021</td>
                                 <td>
                                     <span class="title">Interactive Content Developer</span>
-                                    <strong><br /><a href="https://www.mindspace.my/" target="_blank"
-                                            class="no-select">@MindSpace Community Centre</a></strong>
+                                    <strong><br /><a href="https://www.mindspace.my/" target="_blank" class="no-select"
+                                            aria-label="website">@MindSpace Community Centre</a></strong>
                                     <div class="time">August 2019 - March 2021</div>
                                 </td>
                             </tr>
@@ -131,8 +137,8 @@
                                 <td class="year">2019</td>
                                 <td>
                                     <span class="title">IT Intern</span>
-                                    <strong><br /><a href="https://www.mindspace.my/" target="_blank"
-                                            class="no-select">@MindSpace Community Centre</a></strong>
+                                    <strong><br /><a href="https://www.mindspace.my/" target="_blank" class="no-select"
+                                            aria-label="website">@MindSpace Community Centre</a></strong>
                                     <div class="time">April 2019 - July 2019</div>
                                 </td>
                             </tr>
@@ -141,7 +147,7 @@
                                 <td>
                                     <span class="title">Video Editor Intern</span>
                                     <strong><br /><a href="https://sandakanfm.rtm.gov.my/" target="_blank"
-                                            class="no-select">@Sandakan FM</a></strong>
+                                            class="no-select" aria-label="website">@Sandakan FM</a></strong>
                                     <div class="time">January 2016 - March 2016</div>
                                 </td>
                             </tr>
@@ -150,7 +156,8 @@
 
                     <div class="btn">
                         <button class="btn-resume">
-                            <a href="./pdf/Jeremy-Erik-Leong-Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+                            <a href="./pdf/Jeremy-Erik-Leong-Resume.pdf" target="_blank" rel="noreferrer"
+                                aria-label="resume">Resume</a>
                         </button>
                     </div>
                 </div>
@@ -174,11 +181,14 @@
                     <div class="card">
                         <div class="icon"><i class="far fa-folder fa-2x"></i>
                             <div class="link">
-                                <a href="https://github.com/JeremyL95/music-player" target="_blank"><i
-                                        class="fab fa-github"></i></a>
+                                <a href="https://github.com/JeremyL95/music-player" target="_blank" aria-label="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
 
-                                <a href="https://jeremyl95.github.io/music-player/" target="_blank"><i
-                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://jeremyl95.github.io/music-player/" target="_blank"
+                                    aria-label="website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                         <h2>Music Player</h2>
@@ -190,32 +200,16 @@
                         </ul>
                     </div>
 
-                    <!-- <div class="card">
-                        <div class="icon"><i class="far fa-folder fa-2x"></i>
-                            <div class="link">
-                                <a href="https://github.com/JeremyL95/weather-pro" target="_blank"><i
-                                        class="fab fa-github"></i></a>
-
-                                <a href="https://my-weather-pro.herokuapp.com/" target="_blank"><i
-                                        class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                        <h2>Weather Pro</h2>
-                        <p>A simple weather app built using SCSS, JavaScript and Express.</p>
-                        <ul class="tech-stack">
-                            <li>SCSS</li>
-                            <li>JavaScript</li>
-                            <li>Weather API</li>
-                        </ul>
-                    </div> -->
-
                     <div class="card">
                         <div class="icon"><i class="far fa-folder fa-2x"></i>
                             <div class="link">
-                                <a href="https://github.com/JeremyL95/crud-tick-tick" target="_blank"><i
-                                        class="fab fa-github"></i></a>
-                                <a href="https://crud-ticktick.netlify.app" target="_blank"><i
-                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/JeremyL95/crud-tick-tick" target="_blank"
+                                    aria-label="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://crud-ticktick.netlify.app" target="_blank" aria-label="website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                         <h2>Tick Tick</h2>
@@ -230,10 +224,12 @@
                     <div class="card">
                         <div class="icon"><i class="far fa-folder fa-2x"></i>
                             <div class="link">
-                                <a href="https://github.com/JeremyL95/simon-game" target="_blank"><i
-                                        class="fab fa-github"></i></a>
-                                <a href="https://simon-game-classic.netlify.app" target="_blank"><i
-                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/JeremyL95/simon-game" target="_blank" aria-label="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://simon-game-classic.netlify.app" target="_blank" aria-label="website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                         <h2>Simon</h2>
@@ -248,8 +244,10 @@
                     <div class="card">
                         <div class="icon"><i class="far fa-folder fa-2x"></i>
                             <div class="link">
-                                <a href="https://techquickie-bootstrap.netlify.app" target="_blank"><i
-                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://techquickie-bootstrap.netlify.app" target="_blank"
+                                    aria-label="website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                         <h2>Techquickie</h2>
@@ -263,10 +261,12 @@
                     <div class="card">
                         <div class="icon"><i class="far fa-folder fa-2x"></i>
                             <div class="link">
-                                <a href="https://github.com/JeremyL95/my-portfolio" target="_blank"><i
-                                        class="fab fa-github"></i></a>
-                                <a href="https://jeremyerikleong.com" target="_blank"><i
-                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/JeremyL95/my-portfolio" target="_blank" aria-label="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://jeremyerikleong.com" target="_blank" aria-label="website">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                         <h2>My Portfolio</h2>
@@ -291,18 +291,19 @@
                 </div>
                 <form class="contact-forms" name="contact" method="POST" data-netlify="true">
                     <div class="input-box">
-                        <input type="text" name="name" autocomplete="off" spellcheck="false" required>
-                        <label>Name:</label>
+                        <input id="name" type="text" name="name" autocomplete="off" spellcheck="false" required>
+                        <label for="name">Name:</label>
                     </div>
 
                     <div class="input-box">
-                        <input type="text" name="email" autocomplete="off" spellcheck="false" required>
-                        <label>Email:</label>
+                        <input id="email" type="text" name="email" autocomplete="off" spellcheck="false" required>
+                        <label for="email">Email:</label>
                     </div>
 
                     <div class="input-box">
-                        <textarea name="message" id="" cols="30" rows="10" autocomplete="off" required></textarea>
-                        <label>Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10" autocomplete="off"
+                            required></textarea>
+                        <label for="message">Message:</label>
                     </div>
 
                     <div class="btn">
@@ -315,18 +316,30 @@
         <footer id="footer">
             <div class="footer">
                 <ul class="social-icons">
-                    <li><a href="https://www.behance.net/jeremyerikd59f" target="_blank"><i
-                                class="fab fa-behance fa-lg"></i></a>
+                    <li>
+                        <a href="https://www.behance.net/jeremyerikd59f" target="_blank" aria-label="behance">
+                            <i class="fab fa-behance fa-lg"></i>
+                        </a>
                     </li>
-                    <li><a href="https://codepen.io/JeremyL95" target="_blank"><i class="fab fa-codepen fa-lg"></i></a>
+                    <li>
+                        <a href="https://codepen.io/JeremyL95" target="_blank" aria-label="codepen">
+                            <i class="fab fa-codepen fa-lg"></i>
+                        </a>
                     </li>
-                    <li><a href="https://github.com/JeremyL95" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                    <li>
+                        <a href="https://github.com/JeremyL95" target="_blank" aria-label="github">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
                     </li>
-                    <li><a href="https://www.linkedin.com/in/jeremyerikleong95/" target="_blank"><i
-                                class="fab fa-linkedin fa-lg"></i></a>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jeremyerikleong95/" target="_blank" aria-label="linkedin">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
                     </li>
-                    <li><a href="https://twitter.com/JeremyErikLeong" target="_blank"><i
-                                class="fab fa-twitter fa-lg"></i></a>
+                    <li>
+                        <a href="https://twitter.com/JeremyErikLeong" target="_blank" aria-label="x">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
                     </li>
                 </ul>
                 <p>©<span id="year"></span> Jeremy Erik Leong</p>

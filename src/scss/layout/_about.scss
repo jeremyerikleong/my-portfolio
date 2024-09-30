@@ -39,6 +39,7 @@
         }
 
         .about-image {
+            @include widthHeight(200px, 200px);
             position: relative;
 
             @include breakpoint(medium) {
